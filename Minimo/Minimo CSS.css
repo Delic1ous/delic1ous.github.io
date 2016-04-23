@@ -1,0 +1,181 @@
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url("fonts/playfairDisplay-Black.ttf");
+}
+@font-face {
+    font-family: PlayfairDisplay-BlackItalic;
+    src: url("fonts/playfairDisplay-BlackItalic.ttf")
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url("fonts/playfairDisplay-Bold.ttf")
+}
+@font-face {
+    font-family: PlayfairDisplay-BoldItalic;
+    src: url("fonts/playfairDisplay-BlackItalic.ttf")
+}
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url("fonts/playfairDisplay-BoldItalic.ttf")
+}
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url("fonts/playfairDisplay-Regular.ttf")
+}
+ul {margin: 0}
+/*HEADER*/
+body {
+    font-family: "PlayfairDisplay-Regular", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    color: #626262;
+}
+.align {
+    text-align: center;
+}
+.header .right{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 50px;
+    margin-top: 25px;
+    float: right;
+    vertical-align: middle;
+    list-style: none;
+}
+.header .left{
+    float: left;
+    list-style: none;
+    margin-top: -10px;
+}
+
+h4 {
+    color: #b4ad9e;
+}
+p{
+    text-transform: none;
+}
+.none {
+    text-transform: none;
+}
+.text {
+    margin: 0 15%;
+}
+.postleft {
+    margin: 130px 0 0 15%;
+    height: auto;
+    width: 630px;
+    float: left;
+    box-sizing: border-box;
+}
+.postright {
+    margin: 130px 15% 0 0;
+    height: auto;
+    width: 630px;
+    float: right;
+    box-sizing: border-box;
+}
+img {
+    width: 630px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1700px) {
+    .minimize {
+        width: 635px;
+        float: none;
+        margin: auto;
+
+    }
+}
+.brake {
+    width: 100%;
+    height: 287px;
+    background: #f0f0f0;
+    text-align: center;
+    float: left;
+}
+.news {
+    text-transform: none;
+    height: 100px;
+}
+
+.first {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    border-bottom: 1px solid #626262;
+    width: 500px;
+    margin: 0 auto;
+}
+input[type=text] {
+    border: none;
+    color: #626262;
+    background-color: #f0f0f0;
+    text-align: left;
+    font-family: "PlayfairDisplay-Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+input[type=submit] {
+   background: url("images/send%20icon.png") center no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 17px;
+    border: none;
+}
+input[type=submit]:hover {
+    background: url("images/send%20icon.png") center no-repeat;
+    width: 50px;
+    height: 17px;
+    border: none;
+    border-radius: 200px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 2px rgb(255, 223, 228), 0 0 10px rgba(252, 255, 242, 0.85), 0 0 7px rgb(255,255,255) , 0 0 10px rgb(243, 255, 253), 0 0 35px rgba(255,255,255,1) , 0 0 25px rgba(255,255,255,1) , 0 0 25px rgba(255,255,255,1) , 0 0 32px rgba(255,255,0,0.84);
+}
+.more {
+    width: 100px;
+    height: 50px;
+    border: solid #626262 1px;
+    margin: 150px auto;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: none;
+    color: #626262;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    float: left;
+}
+
+.socialimg {
+    width: inherit;
+    height: inherit;
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.terms {
+    width: inherit;
+    height: inherit;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.before::before {
+    content: "Follow";
+}
+a {
+    margin-right: 30px;
+    color: #626262;
+    text-decoration: none;
+}
