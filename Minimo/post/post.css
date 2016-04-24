@@ -127,6 +127,9 @@ div.ymal {
 img.ymal {
     width: 95%;
     height: 100%;
+    -webkit-box-shadow: 0px 3px 23px 2px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 3px 23px 2px rgb(0, 0, 0);
+    box-shadow: 0px 3px 23px 2px rgb(0, 0, 0);
 }
 h4.none {
     text-align: center;
