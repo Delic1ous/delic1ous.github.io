@@ -78,6 +78,7 @@ img.photo {
     margin: 5% auto;
     width: 70%;
     height: auto;
+    box-shadow: 7px 8px 18px 2px rgba(0,0,0,0.6);
 }
 .quote {
     font-family: "PlayfairDisplay-Italic", Arial, Helvetica, sans-serif;
@@ -115,6 +116,7 @@ p.socialimg {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    box-shadow: inset 1px 2px 5px 1px rgba(0,0,0,0.65);
 }
 div.ymal {
     width: 33.3%;
@@ -157,6 +159,7 @@ footer {
     height: 100px;
     background-color: #f0f0f0;
     float: left;
+    box-shadow: inset 1px 2px 5px 1px rgba(0,0,0,0.65);
 }
 
 .socialimg {
