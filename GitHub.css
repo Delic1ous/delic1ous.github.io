@@ -12,6 +12,7 @@ header {
     background-color: #f0f0f0;
     height: 100px;
     vertical-align: middle;
+    box-shadow: 7px 8px 18px 2px rgba(0,0,0,0.6);
 }
 h1 {
     padding-top: 20px;
@@ -21,11 +22,12 @@ h1 {
 .size {
     height: 400px;
     width: 49%;
-    border: white 5px solid;
     background-color: #f0f0f0;
     display: inline-block;
     box-sizing: border-box;
     position: relative;
+    box-shadow: 7px 8px 18px 2px rgba(0,0,0,0.6);
+    margin: 5px;
 }
 span {
     position:absolute;
@@ -42,7 +44,7 @@ span {
     border-right: 100px white solid;
 }
 .first .cell1 {
-    background: url("images/lambo.png") center no-repeat;
+    background: url("images/lambo-hover.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 0;
@@ -52,15 +54,14 @@ span {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 0;
-    animation: animatedBackground 10s linear infinite;
-    animation-direction: alternate;
+    animation: animatedBackground 10s linear 1;
 }
 @keyframes animatedBackground {
     from { background-position: 0 0; }
     to { background-position: 0 100%; }
 }
 .first .cell2 {
-    background: url("images/minimo.png") center no-repeat;
+    background: url("images/minimo-hover.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 0;
@@ -72,8 +73,7 @@ span {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 0;
-    animation: animatedBackground 10s linear infinite;
-    animation-direction: alternate;
+    animation: animatedBackground 10s linear 1;
 }
 @keyframes animatedBackground {
     from {
