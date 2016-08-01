@@ -83,6 +83,56 @@ span {
         background-position: 0 100%;
     }
 }
+
+
+.second .cell1 {
+    background: url("images/eudora-hover.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    z-index: 0;
+}
+.second .cell1:hover {
+    background: url("images/eudora-hover.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    animation: animatedBackground 10s linear 1;
+}
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+
+.second .cell2 {
+    background: url("images/enyo-hover.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    z-index: 0;
+}
+.second .cell2:hover {
+    background: url("images/enyo-hover.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    animation: animatedBackground 10s linear 1;
+}
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
 .none {
     margin-top: 100px;
 }

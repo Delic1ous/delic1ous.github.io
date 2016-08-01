@@ -1,0 +1,277 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    height: 5670px;
+    background: url("image/back.png") center;
+    color: white;
+    margin: 0;
+}
+@media screen and (max-width: 1200px) {
+    header, .logo, .rightdiv  {
+        width: 100%;
+        padding: 0;
+    }
+    ul {
+        width: 950px;
+    }
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+header {
+    width: 1900px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    font-size: 35px;
+    padding-left: 365px;
+}
+.red {
+    color: red;
+    font-size: 15px;
+    padding-right: 3px;
+}
+.right {
+    float: right;
+}
+.rightdiv {
+    padding-right: 365px;
+    padding-top: 15px;
+}
+.home {
+    margin: 243px 365px 0;
+    text-align: center;
+}
+.ninetyone {
+    font-size: 91px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.bluetext {
+    font-size: 24px;
+    color: #bbd8ff;
+    text-transform: none;
+}
+.button {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0 solid #000000;
+    width: 213px;
+    height: 56px;
+    background-color: #25365d;
+    margin: auto;
+}
+.middle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 56px;
+}
+.marginless {
+    margin-top: -60px;
+}
+.justdownloadit {
+    margin-top: 650px;
+    margin-bottom: 70px;
+    height: 460px;
+}
+.justdownloadit .left {
+    float: left;
+    width: 1265px;
+    margin-left: 365px;
+    background-size: contain;
+    background: url("image/Macbook.png") no-repeat right;
+    background-clip: border-box;
+    height: 452px;
+}
+.justdownloadit .right {
+    float: right;
+    width: 583px;
+    margin-right: 365px;
+}
+h2 {
+    color: #25365d;
+    text-transform: uppercase;
+    font-size: 72px;
+    margin-top: 0;
+}
+.justdownloadit p {
+    font-size: 16px;
+    color: black;
+    width: 700px;
+}
+.justdownloadit .bluetext {
+    color: #93aac9;
+    padding-left: 5px;
+}
+.justdownloadit .red {
+    margin-right: 5px;
+}
+.readmore {
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 52px;
+}
+.additional {
+    padding: 0 350px 0 410px;
+    background-color: #f7f9fb;
+    height: 600px;
+    color: black;
+    vertical-align: middle;
+}
+.top {
+    float: left;
+    width: 380px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 35px;
+}
+.bottom {
+    float: left;
+    width: 380px;
+    height: 300px;
+    display: inline-block;
+}
+.additional .title {
+    font-size: 22px;
+    color: #25365d;
+    margin: 40px auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+}
+.additional .fa {
+   margin-right: 10px;
+}
+.additional p {
+    color: #5a5a5a;
+    margin: 0 50px;
+    width: 300px;
+}
+.features h2 {
+    text-align: center;
+    margin: 150px auto;
+}
+img {
+    margin: 0 365px;
+}
+.plans {
+    height: 1150px;
+    background-color: #f7f9fb;
+    padding: 0 380px;
+    margin: 150px 0;
+    text-align: center;
+}
+.margin {
+    padding-top: 150px;
+}
+.plans p {
+    color: #5a5a5a;
+    text-transform: none;
+}
+.plans div {
+    height: 255px;
+    width: 355px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0 0 80px -2px rgba(147,170,201,0.8);
+    -moz-box-shadow: 0 0 80px -2px rgba(147,170,201,0.8);
+    box-shadow: 0 0 80px -2px rgba(147,170,201,0.8);
+}
+div .rightest {
+    margin-right: 0;
+}
+a {
+    color: red;
+}
+span {
+    font-size: 16px;
+    color: #5a5a5a;
+    line-height: 40px;
+    height: 40px;
+}
+.mon {
+    margin-left: -20px;
+}
+.dollar {
+    margin-right: -20px;
+    color: #25365d;
+}
+.buy h2{
+    line-height: 100px;
+    height: 100px;
+    margin: 25px;
+}
+.buy .upper {
+    text-transform: uppercase;
+    color: #5a5a5a;
+}
+.resource {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 250px;
+    padding-top: 740px;
+    z-index: -1;
+}
+.button:hover {
+    box-shadow:0 0 20px rgba(243, 255, 253, 0.45), 0 0 70px rgba(37, 54, 93, 0.65), 0 0 40px rgba(255,255,255,1) , 0 0 50px rgba(255,255,255,1);
+    transition: 1s;
+}
+.contacts {
+    display: inline;
+    width: 1150px;
+
+}
+.contacts a {
+    float: left;
+    width: 556px;
+    font-size: 22px;
+    color: #25365d;
+    text-transform: lowercase;
+}
+.contacts i {
+    padding-right: 6px;
+}
+h4 {
+    color: #25365d;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+.fa-download {
+    margin-right: 15px;
+    color: #7890b7;
+}
+.end {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 365px;
+}
+.end p {
+    color: #5a5a5a;
+    padding-bottom: 40px;
+}

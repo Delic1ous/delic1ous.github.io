@@ -1,0 +1,314 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.51);
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.header {
+    background: url("image/header.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    z-index: 1;
+    -webkit-box-shadow: 3px 7px 17px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 17px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 17px -5px rgba(0,0,0,0.75);
+}
+.header:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h2 {
+    padding-top: 356px;
+    font-style: italic;
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+span {
+    color: #e59205;
+    font-weight: bold;
+}
+.headerlink {
+text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    line-height: 250px;
+    height: 250px;
+}
+.orange {
+    font-size: 72px;
+    color: #e59205;
+    line-height: 250px;
+    height: 250px;
+    font-family: 'Playfair Display', serif;
+}
+.container-fluid {
+    padding: 0;
+}
+.my-button {
+    border-radius: 0;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-top: 70px;
+    margin-bottom: 72px;
+}
+.blue {
+    color: #6e7498;
+}
+
+.lines {
+    padding-top: 100px;
+}
+.lines:after {
+    display: inline-block;
+    margin: 44px 0 0 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #e59205;
+    width: 50px;
+    position: absolute;
+}
+.lines:before {
+    display: inline-block;
+    margin: 44px 0 0 -60px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #e59205;
+    width: 50px;
+    position: absolute;
+}
+.col-lg-3 {
+    height: 200px;
+}
+.resize img {
+    width: 70%;
+    height: auto;
+    -webkit-box-shadow: 6px 10px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 22px 1px rgba(0,0,0,0.75);
+
+
+}
+
+.menu .my-button {
+    background-color: white;
+    color: #6e7498;
+    border: 1px solid #6e7498;
+}
+#menu {
+    background-color: white;
+    color: #6e7498;
+    border: 1px solid #6e7498;
+
+}
+
+@media (max-width: 992px) {
+    .raw div {
+        height: 72px;
+        line-height: 0;
+        padding-top: 0;
+    }
+    .headerlink  {
+        line-height: 2;
+        height: 0;
+    }
+    .orange {
+        line-height: 0;
+    }
+    .lines:before {
+        width: 0;
+    }
+    .lines:after {
+        width: 0;
+    }
+    .width {
+        width: 300px;
+    }
+    .offer {
+        width: 100%;
+        background-size: cover;
+    }
+    #offer {
+        width: auto;
+    }
+    .minimize h2 {
+        padding-top: 530px;
+    }
+}
+.modal-body#one {background: url("image/one.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: white;}
+#two {
+    background: url("image/two.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+}
+#three {
+    background: url("image/three.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: white;}
+#five {
+    background: url("image/five.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+}
+#four {
+    background: url("image/four.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+}
+
+.modal-body:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-title {
+    padding-top: 0;
+    font-style: italic;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-top: 25%;
+}
+.orangebg {
+    background-color: #e59205;
+
+}
+.modal-content button {
+    border-radius: 0;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.offer {
+    height: 525px;
+
+}
+#offer {
+    background-color: #e59205;
+    height: 525px;
+    width: 100%;
+    margin: 0;
+    padding: 10% 10px 0;
+    color: white;
+    font-style: italic;
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+.range p.col-md-8.col-md-offset-2 {
+    height: 170px;
+}
+.range img {
+    height: 100px;
+}
+@media (max-width: 992px) {
+    .range p {
+        height: 100px;
+        margin: 10px 25%;
+    }
+    .range img {
+        height: 100px;
+    }
+}
+.subscribe {
+    background: url("image/news.png") center no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+.subscribe h2 {
+    padding-top: 5%;
+}
+form {
+    background: none;
+    width: 40%;
+    margin: 0 30%;
+    text-align: center;
+}
+.form-control {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.subscribe .btn .btn-large .btn-primary .my-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.input-group {
+    width: 100%;
+}
+.subscribe .my-button {
+    margin: 3% 0;
+}
+a:hover {
+    color: #e59205;
+    text-decoration: none;
+}
+.my-button:hover {
+    background-color: #e59205;
+    color: white;
+    border: 1px solid white;
+}
+#menu:hover {
+    background-color: #e59205;
+    color: white;
+    border: 1px solid white;
+}
+.my-button:focus {
+    background-color: #e59205;
+    color: white;
+    border: 1px solid white;
+}
+i {
+    padding: 0 10px;
+}
+.subscribe .my-button:hover {
+    background-color: transparent;
+    border: inherit;
+}
+.subscribe .my-button:focus {
+    background-color: transparent;
+    border: inherit;
+}
