@@ -150,6 +150,9 @@ text-transform: uppercase;
     .minimize h2 {
         padding-top: 530px;
     }
+    .col-md-5 {
+        width: 49%
+    }
 }
 .modal-body#one {background: url("image/one.jpg") no-repeat center;
     background-size: cover;
