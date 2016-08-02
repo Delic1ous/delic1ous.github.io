@@ -1,0 +1,309 @@
+body {
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+     color: #5a5a5a;
+     font-size: 18px;
+ }
+.padding, .padding h1 {
+    color: white;
+
+}
+nav, {
+    font-weight: 700;
+    text-align: center;
+}
+a.navbar-brand {
+    color: white;
+    padding-left: 40%;
+    font-size: 32px;
+}
+.purple, .purple p {
+    color: #ed145b;
+}
+button.navbar-toggle.collapsed {
+    margin: 0;
+    color: white;
+}
+.navbar-toggle {
+    position: relative;
+    float: none;
+    padding: 0 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.navbar-nav>li>a, .dropdown-menu>li>a {
+    color: white;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, a.dropdown-toggle:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    color: #ed145b;
+    background-color: rgba(37, 54, 93, 0.51);
+}
+.height {
+    height: 2000px;
+}
+.head {
+    background: url("image/head.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+    min-height: 50px;
+    z-index: 10;
+
+}
+@media (min-width: 1200px) {
+    .dropdown-menu {
+        background: transparent;
+    }
+    .head {
+        min-height: 800px;
+    }
+    a.navbar-brand {
+        padding-left: 0;
+    }
+    .navbar-nav>li>a:hover, a.dropdown-toggle:hover, a.dropdown-toggle:active  {
+        background: none;
+    }
+    .row.padding {
+        margin-top: 100px;
+    }
+    .news>.row>div {
+        margin-left: 47px;
+    }
+
+}
+.navbar-header {
+    z-index: 100;
+}
+.dropdown-menu {
+    -webkit-animation-duration: 0.55s;
+    animation-duration: 0.55s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+h1 {
+    text-transform: uppercase;
+}
+p.twentytwo {
+    font-size: 22px;
+    padding: 30px;
+}
+.row {
+    text-align: center;
+}
+h1 {
+    border-bottom: solid 1px #ed145b;
+    padding: 30px;
+}
+button.btn.btn-default:active, button.btn.btn-default, button.btn.btn-default:active, button.btn.btn-default:focus, button.btn.btn-default:hover, button.btn.btn-default:focus {
+    background-color: transparent;
+    border-radius: 200px;
+    text-transform: uppercase;
+    color: white;
+    border: solid 2px #ed145b;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+}
+button.btn.btn-default:hover {
+    background-color: #ed145b;
+    border: solid 2px transparent;
+}
+.about {
+    color: #5a5a5a;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: inset 0 0 25px -5px rgb(0, 0, 0);
+    -moz-box-shadow: inset 0 0 25px -5px rgb(0, 0, 0);
+    box-shadow: inset 0 0 25px -5px rgba(0, 0, 0, 1);
+}
+.about, .row {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+img {
+    width: 90%;
+    padding: 30px 0;
+}
+.about>.row>div>h1, .services>.row>h1 {
+    color: #5a5a5a;
+    text-transform: none;
+    font-style: italic;
+}
+.services p {
+    color: #5a5a5a;
+    padding-bottom: 40px;
+}
+.icons p {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+}
+.carousel {
+    height: 515px;
+    background: url("image/quote.png") left center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    vertical-align: middle;
+    min-height: 450px;
+    margin: 0 0;
+    margin-top: 40px;
+    -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+    -moz-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+    box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+
+}
+.carousel .fa {
+    margin: 5% 0;
+}
+.prices {
+    background-color: #f4f4f4;
+}
+h1 small {
+    font-size: 18px;
+    text-transform: lowercase;
+    padding-top: 5px;
+}
+.prices h1, h1 small {
+    border: none;
+    color: white;
+    margin-bottom: 0;
+}
+.prices h1 {
+    padding: 20px;
+}
+.color {
+    background-color: #5a5a5a;
+    position: relative;
+    border: 1px solid #5a5a5a;
+}
+.rounded {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: -20px;
+    border-radius: 200px;
+    border: 1px solid #ed145b;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #f4f4f4;
+}
+.description {
+    height: 400px;
+    margin-bottom: 40px;
+    border: 1px solid #5a5a5a;
+}
+
+.description>.btn.btn-default.rounded {
+    background-color: #ed145b;
+    color: white;
+    bottom: 3%;
+    height: auto;
+}
+.description>p {
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+.shadow {
+    -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+    -moz-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+    box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+}
+.shadow:hover .color, .shadow:hover .rounded {
+    background-color: #ed145b;
+    color: white;
+    border: 1px solid #5a5a5a;
+    box-sizing: border-box;
+}
+.shadow:hover .description>.btn.btn-default.rounded {
+    background-color: white;
+    color: #ed145b;
+    border: 1px solid #ed145b;
+}
+.shadow:hover, shadow:focus {
+    -webkit-box-shadow: 0 0 86px -20px rgb(237, 20, 91);
+    -moz-box-shadow: 0 0 86px -20px rgb(237, 20, 91);
+    box-shadow: 0 0 86px -20px rgb(237, 20, 91);
+}
+.additional {
+    -webkit-box-shadow: inset 0 0 25px -5px rgb(0, 0, 0);
+    -moz-box-shadow: inset 0 0 25px -5px rgb(0, 0, 0);
+    box-shadow: inset 0 0 25px -5px rgba(0, 0, 0, 1);
+}
+.additional>.row>div {
+    margin-top: 50px;
+}
+.additional>.row>div>p {
+    width: 70%;
+    margin: 15px 15%;
+}
+.pink, .pink h1 {
+    min-height: 200px;
+    background-color: #ed145b;
+    font-weight: 300;
+    color: white;
+    padding-top: 30px;
+}
+#whitebutton {
+    margin-top: 30px;
+    background-color: white;
+    color: #ed145b;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+
+}
+.news>.row>div {
+    background-color: #f4f4f4;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 47px;
+}
+.news img {
+    width: 100%;
+    padding: 0;
+    position: relative;
+
+}
+h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    z-index: 100;
+}
+footer {
+    position: relative;
+    background-color: #2b2b2b;
+    margin-top: 50px;
+    vert-align: middle;
+}
+h1.delic {
+    font-size: 56px;
+    position: absolute;
+    top: 26px;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    text-transform: none;
+    width: 100%;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
