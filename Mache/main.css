@@ -140,8 +140,7 @@ img {
     font-size: 25px;
     font-weight: 900;
     vertical-align: middle;
-    margin: 0 0;
-    margin-top: 40px;
+    margin: 40px 0 0;
     -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
     -moz-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
     box-shadow: 0 0 86px -20px rgba(0,0,0,1);
@@ -208,10 +207,7 @@ h1 small {
 }
 .description>p {
     font-size: 18px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 30px 10px 60px;
 }
 .shadow {
     -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
@@ -316,9 +312,8 @@ h1.delic {
     height: 100%;
     left:50%;
     transform:translateX(-50%);
-    background-image: url(http://lorempixel.com/output/abstract-q-c-1000-250-5.jpg);
     background-size: cover ;
-    background-repeat: no-repeat;
+    background: url(http://lorempixel.com/output/abstract-q-c-1000-250-5.jpg) no-repeat;
 }
 .head h1 {
     padding-top: 130px;
@@ -329,4 +324,5 @@ h1.delic {
     }
     .col-md-5 {
         width: 48%;
+}
 }
