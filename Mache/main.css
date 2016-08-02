@@ -330,14 +330,17 @@ h1.delic {
     .col-md-offset-2 {
         margin-left: 2%;
     }
+
     .col-md-5 {
         width: 48%;
-}
-}
-.col-xs-12 {
-    width: 80%;
-    margin: 0 10%;
-    padding-left: 0;
-    padding-right: 0;
-}
+    }
 
+}
+@media(max-width:767px){
+    .col-xs-12 {
+        width: 80%;
+        margin: 0 10%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
