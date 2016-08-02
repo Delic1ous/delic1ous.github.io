@@ -143,14 +143,14 @@ img {
     font-weight: 600;
 }
 .carousel {
-    height: 515px;
+    min-height: 515px;
+    height: auto;
     background: url("image/quote.png") left center;
     text-align: center;
     color: white;
     font-size: 25px;
     font-weight: 900;
     vertical-align: middle;
-    min-height: 450px;
     margin: 0 0;
     margin-top: 40px;
     -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
