@@ -55,10 +55,11 @@ button.navbar-toggle.collapsed {
     z-index: 10;
 
 }
+.dropdown-menu {
+    background: transparent;
+}
 @media (min-width: 1200px) {
-    .dropdown-menu {
-        background: transparent;
-    }
+
     .head {
         min-height: 800px;
     }
