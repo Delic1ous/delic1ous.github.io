@@ -199,7 +199,8 @@ h1 small {
     background-color: #f4f4f4;
 }
 .description {
-    height: 400px;
+    min-height: 300px;
+    height: auto;
     margin-bottom: 40px;
     border: 1px solid #5a5a5a;
 }
@@ -211,14 +212,15 @@ h1 small {
     height: auto;
 }
 .description>p {
-    height: 60px;
-    line-height: 60px;
     font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 .shadow {
     -webkit-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
     -moz-box-shadow: 0 0 86px -20px rgba(0,0,0,1);
     box-shadow: 0 0 86px -20px rgba(0,0,0,1);
+    height: auto;
 }
 .shadow:hover .color, .shadow:hover .rounded {
     background-color: #ed145b;
