@@ -12,11 +12,13 @@ nav, {
     font-weight: 700;
     text-align: center;
 }
-a.navbar-brand {
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand {
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     float: none;
+    line-height: 45px;
 }
+
 .purple, .purple p {
     color: #ed145b;
 }
@@ -26,6 +28,21 @@ button.navbar-toggle.collapsed {
     width: 100%;
     padding-top: 30px;
 }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ed145b;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+}
+
 .navbar-toggle {
     position: relative;
     float: none;
@@ -37,13 +54,21 @@ button.navbar-toggle.collapsed {
     padding-top: 30px;
 }
 
-.navbar-nav>li>a, .dropdown-menu>li>a {
+.navbar-nav>li>a, .dropdown-menu>li>a, .navbar-default, .navbar-default, .navbar-nav>li>a {
     color: white;
 }
-.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, a.dropdown-toggle:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+.navbar-nav>li>a:hover, .navbar-default, .navbar-default:hover, .navbar-nav>li>a, .navbar-nav>li>a:focus, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, a.dropdown-toggle:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     color: #ed145b;
-    background-color: rgba(37, 54, 93, 0.51);
+    background-color: transparent;
 }
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 51px;
+}
+ul.navbar-nav>li>a {
+    color: white;
+}
+
 .height {
     height: 2000px;
 }
@@ -347,4 +372,11 @@ h1.delic {
 }
 .margin-top {
     padding-top: 40px;
+}
+nav {
+    background-color: transparent;
+}
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.51)
+    color: white;
 }
