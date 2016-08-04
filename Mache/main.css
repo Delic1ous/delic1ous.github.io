@@ -399,3 +399,12 @@ b {
 ul.nav.navbar-nav>li {
     display: inline-block;
 }
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 4px
