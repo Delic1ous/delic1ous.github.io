@@ -377,6 +377,17 @@ h1.delic {
         ul>li>.cos-xs-2 {
              width: 20%;
          }
+         .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 3px 8px;
+    font-size: 14px;
+}
 
 }
 .margin-top {
@@ -399,14 +410,4 @@ b {
 ul.nav.navbar-nav>li {
     display: inline-block;
 }
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 30px;
-}
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 3px 8px;
-    font-size: 14px;
-}
+
