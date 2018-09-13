@@ -296,11 +296,8 @@ header nav li {
 }
 
 @media (max-width: 800px) {
-  .contact form input {
-    
-  }
-  .contact form .btn {
-    
+  .contact form {
+    width: 80%
   }
 }
 
