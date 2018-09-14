@@ -299,6 +299,10 @@ header nav li {
   .contact form {
     width: 80%
   }
+  /* .contact form .btn {
+    flex: 2;
+    width: 300px;
+  } */
 }
 
 /*Footer Styles*/
